@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27128.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlissRecruitment.API", "BlissRecruitment.API\BlissRecruitment.API.csproj", "{ADEA1342-FFD7-46A3-8F16-C6B6C8F945EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlissRecruitment.BusinessLogic.Abstract", "BlissRecruitment.BusinessLogic.Abstract\BlissRecruitment.BusinessLogic.Abstract.csproj", "{87CC2D40-144D-4968-83AD-D301DB3A04EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlissRecruitment.BusinessLogic.Concrete", "BlissRecruitment.BusinessLogic.Concrete\BlissRecruitment.BusinessLogic.Concrete.csproj", "{DCA43458-2778-4E05-B18E-58D348BB6D5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlissRecruitment.Domain", "BlissRecruitment.Domain\BlissRecruitment.Domain.csproj", "{4A2CDA40-A443-4185-8152-5B2154120159}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlissRecruitment.DataAccess.Concrete", "BlissRecruitment.DataAccess.Concrete\BlissRecruitment.DataAccess.Concrete.csproj", "{BF5171C4-1A1B-4C0B-B485-84AEC27EE4FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlissRecruitment.DataAccess.Abstract", "BlissRecruitment.DataAccess.Abstract\BlissRecruitment.DataAccess.Abstract.csproj", "{F2E8FE0F-BCE4-43CA-B5A0-058B3B0DA661}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlissRecruitment.DataAccess.DTO", "BlissRecruitment.DataAccess.DTO\BlissRecruitment.DataAccess.DTO.csproj", "{F7872073-D2AF-445D-B82D-8FF03679BB51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ruiagf.Framework.BaseUtils", "Ruiagf.Framework.BaseUtils\Ruiagf.Framework.BaseUtils.csproj", "{1E551C92-DF1B-47BF-91DC-439EF8208DF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ruiagf.Framework.Utils", "Ruiagf.Framework.Utils\Ruiagf.Framework.Utils.csproj", "{43AF1F3C-2AE3-4364-83D7-2AA09AB1FA62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlissRecruitment.API.Tests", "BlissRecruitment.API.Tests\BlissRecruitment.API.Tests.csproj", "{51EDEA3D-48C0-4C63-8380-FACDE57EF9E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADEA1342-FFD7-46A3-8F16-C6B6C8F945EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEA1342-FFD7-46A3-8F16-C6B6C8F945EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEA1342-FFD7-46A3-8F16-C6B6C8F945EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEA1342-FFD7-46A3-8F16-C6B6C8F945EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87CC2D40-144D-4968-83AD-D301DB3A04EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87CC2D40-144D-4968-83AD-D301DB3A04EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87CC2D40-144D-4968-83AD-D301DB3A04EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87CC2D40-144D-4968-83AD-D301DB3A04EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCA43458-2778-4E05-B18E-58D348BB6D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA43458-2778-4E05-B18E-58D348BB6D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA43458-2778-4E05-B18E-58D348BB6D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA43458-2778-4E05-B18E-58D348BB6D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A2CDA40-A443-4185-8152-5B2154120159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A2CDA40-A443-4185-8152-5B2154120159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A2CDA40-A443-4185-8152-5B2154120159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A2CDA40-A443-4185-8152-5B2154120159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF5171C4-1A1B-4C0B-B485-84AEC27EE4FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF5171C4-1A1B-4C0B-B485-84AEC27EE4FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF5171C4-1A1B-4C0B-B485-84AEC27EE4FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF5171C4-1A1B-4C0B-B485-84AEC27EE4FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2E8FE0F-BCE4-43CA-B5A0-058B3B0DA661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E8FE0F-BCE4-43CA-B5A0-058B3B0DA661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E8FE0F-BCE4-43CA-B5A0-058B3B0DA661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E8FE0F-BCE4-43CA-B5A0-058B3B0DA661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7872073-D2AF-445D-B82D-8FF03679BB51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7872073-D2AF-445D-B82D-8FF03679BB51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7872073-D2AF-445D-B82D-8FF03679BB51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7872073-D2AF-445D-B82D-8FF03679BB51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E551C92-DF1B-47BF-91DC-439EF8208DF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E551C92-DF1B-47BF-91DC-439EF8208DF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E551C92-DF1B-47BF-91DC-439EF8208DF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E551C92-DF1B-47BF-91DC-439EF8208DF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43AF1F3C-2AE3-4364-83D7-2AA09AB1FA62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43AF1F3C-2AE3-4364-83D7-2AA09AB1FA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43AF1F3C-2AE3-4364-83D7-2AA09AB1FA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43AF1F3C-2AE3-4364-83D7-2AA09AB1FA62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51EDEA3D-48C0-4C63-8380-FACDE57EF9E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51EDEA3D-48C0-4C63-8380-FACDE57EF9E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51EDEA3D-48C0-4C63-8380-FACDE57EF9E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51EDEA3D-48C0-4C63-8380-FACDE57EF9E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F6B98E4-2097-4733-A227-E16AD23F88E8}
+	EndGlobalSection
+EndGlobal

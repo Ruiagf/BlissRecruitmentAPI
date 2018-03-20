@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DCA43458-2778-4E05-B18E-58D348BB6D5B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BlissRecruitment.BusinessLogic.Concrete</RootNamespace>
+    <AssemblyName>BlissRecruitment.BusinessLogic.Concrete</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=6.2.2.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.6.2.2\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Concrete\QuestionProvider.cs" />
+    <Compile Include="Concrete\HealthStatusProvider.cs" />
+    <Compile Include="Concrete\ShareProvider.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlissRecruitment.BusinessLogic.Abstract\BlissRecruitment.BusinessLogic.Abstract.csproj">
+      <Project>{87CC2D40-144D-4968-83AD-D301DB3A04EC}</Project>
+      <Name>BlissRecruitment.BusinessLogic.Abstract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BlissRecruitment.DataAccess.Abstract\BlissRecruitment.DataAccess.Abstract.csproj">
+      <Project>{F2E8FE0F-BCE4-43CA-B5A0-058B3B0DA661}</Project>
+      <Name>BlissRecruitment.DataAccess.Abstract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BlissRecruitment.DataAccess.DTO\BlissRecruitment.DataAccess.DTO.csproj">
+      <Project>{F7872073-D2AF-445D-B82D-8FF03679BB51}</Project>
+      <Name>BlissRecruitment.DataAccess.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BlissRecruitment.Domain\BlissRecruitment.Domain.csproj">
+      <Project>{4a2cda40-a443-4185-8152-5b2154120159}</Project>
+      <Name>BlissRecruitment.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ruiagf.Framework.BaseUtils\Ruiagf.Framework.BaseUtils.csproj">
+      <Project>{1e551c92-df1b-47bf-91dc-439ef8208df6}</Project>
+      <Name>Ruiagf.Framework.BaseUtils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
